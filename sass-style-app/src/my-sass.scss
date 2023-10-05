@@ -1,0 +1,165 @@
+// Text color
+
+$Color-Primary:blue;
+$Color-Secondary:gray;
+$Color-Success:green;
+$Color-Danger:red;
+$Color-Warning:orange;
+$Color-White: white;
+$Color-Black: black;
+
+
+// Background color
+
+$bg-Primary:blue;
+$bg-Secondary:gray;
+$bg-Success:green;
+$bg-Danger :red;
+$bg-Warning:orange;
+$bg-White:white;
+$bg-Black:black;
+
+// Spacing
+
+$margin:0;
+$padding:0;
+
+$margin-auto:auto;
+
+$margin-5:5px;
+$margin-10:10px;
+$margin-15:15px;
+$margin-20:20px;
+$margin-25:25px;
+
+$padding-5 :5px;
+$padding-10: 10px;
+$padding-15: 15px;
+$padding-20: 20px;
+$padding-25: 25px;
+
+
+// Sizing
+
+$container:80%;
+$container-fluid:100%;
+
+$max-width-100: 100%;
+
+$width-25:25%;
+$width-50:50%;
+$width-75:75%;
+$width-100:100%;
+
+$max-height-100: 100%;
+
+$height:auto;
+$height-25:25%;
+$height-50:50%;
+$height-75:75%;
+$height-100:100%;
+
+
+// Font style
+
+$font-size-large: large;
+$font-size-larger: larger;
+$font-size-medium: medium;
+$font-size-small: small;
+
+$font-size-5px:5px;
+$font-size-8px:10px;
+$font-size-10px:15px;
+$font-size-18px:20px;
+$font-size-20px:25px;
+
+
+
+
+// Text alignment
+
+$Align-start:start;
+$Align-end:end;
+$Align-left:left;
+$Align-right:right;
+$Align-center:center;
+$Align-justify:justify;
+
+// Border
+
+$border-1px:1px solid black;
+$border-2px:2px solid black;
+$border-3px:3px solid black;
+$border-4px:4px solid black;
+$border-5px:5px solid black;
+
+// Style type
+
+$list-style-type:none;
+$text-decoration:none;
+
+
+// Flex
+
+
+$display-flex:flex;
+$justify-content-start:start;
+$justify-content-end: end;
+$justify-content-flexStart:flex-start;
+$justify-content-flexEnd:flex-end;
+$justify-content-center:center;
+
+$aligin-item-center:center;
+$aligin-item-start:start;
+$aligin-item-end:end;
+
+
+// Styling here
+
+.Header{
+    background-color: $bg-Primary;
+    color:$Color-White;
+    width: $width-75;
+    margin: $margin-auto;
+    text-align: $Align-center;
+    margin-top: $margin-15;
+    padding: $padding-25;
+    
+}
+
+
+.container{
+    margin-top: $margin-20;
+    padding: $padding-5;
+    width: $container-fluid;
+
+}
+
+.navbar{
+    background-color: $bg-Secondary;  
+    
+}
+
+.navbar .list{
+    padding: $padding-15;
+    display: $display-flex;
+    justify-content: $justify-content-center;
+
+}
+.navbar .list li{
+margin-left: $margin-25;
+  padding: $padding-10;
+  list-style-type: none;
+
+}
+
+.navbar .list li a{
+text-decoration: $text-decoration;
+color: $Color-White;
+font-size: $font-size-20px;
+
+}
+a:hover{
+    color:$Color-Danger !important;
+    background-color: $bg-Primary;
+}

@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+@media only screen and (min-width: 500px) and (max-width:767px) {
+
+    .sidebar-row h4{
+        margin-left: 10px;
+    }
+
+    .sidebar-row hr{
+        width: 25% !important;
+    }
+
+       .sidebar-row .logout-btn{
+        width: 25% !important;
+       }
+
+}
+
+@media only screen and  (min-width: 768px) and (max-width: 1003px) {
+    
+        .dashboard-setting{
+        width: 50%;
+        }
+        .notification{
+            width: 23%;
+        }
+         
+    
+}
+
+
